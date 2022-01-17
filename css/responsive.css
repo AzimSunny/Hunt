@@ -1,0 +1,865 @@
+@media (min-width:320px) and (max-width:575px){
+
+   /* ============== Nav =============== */
+    nav img{
+        width: 70%;
+    }
+    nav button i{
+        color:#fff;
+        font-size: 24px;
+    }
+    nav .navbar-nav{
+        text-align: center;
+        background-color: #000;
+    }
+    nav ul li:hover:after {
+        width: 0;
+    }
+   /* ============== Banner =============== */
+
+   .banner{
+       clip-path: none;
+   }
+
+   .banner .overlay h2 {
+       font-size: 25px;
+    }
+     
+    
+    .banner .overlay h1 {
+       font-size: 36px;
+    }
+
+    .banner .overlay p{
+        width: auto;
+        padding: 0px 8px;
+    }
+
+    .banner .carousel-item{
+        height: 600px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+         
+        top: auto;
+        bottom: 100px;
+         
+    }
+    .carousel-control-prev{
+        left: 30%;
+    }
+    .carousel-control-next{
+        right: 30%;
+    }
+    .title{
+        width: auto;
+    }
+
+    /* =============== About us ============== */
+
+    section.about .item .tooltip-top{
+        display: none;
+    }
+
+    section.about .top i{
+        display: none;
+    }
+    section.about .item .tooltip-left{
+        display: none;
+    }
+    section.about .item .tooltip-right{
+        display: none;
+    }
+    section.about .item .tooltip-bottom{
+        display: none;
+    }
+    section.about .bottom i{
+        display: none;
+    }
+
+
+    section.about   .round {
+        width: 270px;
+        height: 270px;
+    }
+    section.about .inner-round{
+        width: 220px;
+        height: 220px;
+    }
+    section.about .left i {
+        position: absolute;
+        top: 50%;
+        right: -55px;
+        transform: translateY(-50%);
+        z-index: 2;
+        color: #444;
+        display: none;
+        transition: .4s;
+    }
+
+
+      /* =============== Portfolio ============== */
+
+      section.port {
+          clip-path:none;
+          margin-bottom: 50px;
+        }
+        section.port .overlay .title {
+            margin-bottom: 40px;
+        }
+        
+    section.port .overlay {
+        padding: 30px 0px 30px;
+    }
+
+    /* ===================== Service ================= */
+
+    section.service-part .line {
+         
+        display: none;
+    }
+
+    section.service-part {
+        margin-bottom: 130px;
+    }
+
+    section.service-part .title {
+         
+        margin-bottom: 50px;
+    }
+
+
+     
+
+     
+
+    section.service-part  .main{
+        flex-direction: column;
+    }
+    section.service-part .service:nth-child(odd) .main{
+        flex-direction: column;
+    }
+    section.service-part .service .main .left {
+        width: 100%;
+        justify-content: center;
+        
+    }
+    section.service-part .service .main .middle {
+        width: 100%;
+        justify-content: center;
+         
+    }
+    section.service-part .slick-center .middle div {
+         
+        transform: scale(.7);
+    }
+    section.service-part .service .main .right {
+        width: 100%;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    section.service-part .fa-chevron-up:before {
+        content: "\f053";
+    }
+
+    section.service-part .fa-chevron-down:before {
+        content: "\f054";
+    }
+
+    section.service-part .service-slider i.fa-chevron-up {
+         top: 108%;
+         left: 35%;
+    }
+
+    section.service-part .service-slider i.fa-chevron-down {
+        left: 70%; 
+    }
+         
+         
+
+
+    /* ===================== Pricing ================= */
+
+    section.pricing-part .title{
+        margin-bottom: 40px;
+    }
+    section.pricing-part .item{
+        margin-bottom: 20px;
+    }
+     /* ===================== Counter Part ================= */
+
+     section.counter-part{
+         clip-path: none;
+     }
+     section.counter-part .row {
+        transform: rotate(0deg);
+    }
+
+    section.counter-part .item {
+        transform: skewX(0deg);
+        margin: 10px 0px;
+        
+    }
+    section.counter-part .item h5 {
+        transform: rotate(0deg);
+        font-size: 40px;
+    }
+    section.counter-part .item p {
+        transform: rotate(0deg);
+        font-size: 16px;
+    }
+
+
+    /* ============= Team Part ============== */
+
+ section.team-part{
+     margin-bottom: 1030px;
+ }
+
+     /* ============= Company Part ============== */
+
+    section.company-part{
+        clip-path: none;
+        padding: 30px 0px;
+         
+    }
+    section.company-part .row {
+        transform: rotate(0deg);
+    }
+    section.company-part .item {
+         
+        transform: skewX(0deg);
+    }
+    section.company-part .item img {
+        transform: rotate(0deg);
+    }
+    
+    
+    /* ============== Footer =============== */
+
+
+    section.footer-part {
+     clip-path: none;
+    }
+    section.footer-part .a img {
+        transform: rotate(1deg);
+    }
+
+    section.footer-part .a {
+         
+        transform: rotate(0deg);
+    }
+
+    section.footer-part .item:after {
+         display: none;
+    }
+
+         
+     
+
+         
+         
+         
+
+    
+         
+         
+
+
+
+
+ /* ==================================== */
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    /* ============== Nav =============== */
+     nav img{
+         width: 70%;
+     }
+     nav button i{
+         color:#fff;
+         font-size: 24px;
+     }
+     nav .navbar-nav{
+         text-align: center;
+         background-color: #000;
+     }
+     nav ul li:hover:after {
+         width: 0;
+     }
+    /* ============== Banner =============== */
+ 
+    .banner{
+        clip-path: none;
+    }
+ 
+    .banner .overlay h2 {
+        font-size: 25px;
+     }
+      
+     
+     .banner .overlay h1 {
+        font-size: 36px;
+     }
+ 
+     .banner .overlay p{
+         width: auto;
+         padding: 0px 8px;
+     }
+ 
+     .banner .carousel-item{
+         height: 600px;
+     }
+ 
+     .carousel-control-next, .carousel-control-prev {
+          
+         top: auto;
+         bottom: 100px;
+          
+     }
+     .carousel-control-prev{
+         left: 33%;
+     }
+     .carousel-control-next{
+         right: 33%;
+     }
+     .title{
+         width: auto;
+     }
+ 
+     /* =============== About us ============== */
+ 
+     section.about .item .tooltip-top{
+         display: none;
+     }
+ 
+     section.about .top i{
+         display: none;
+     }
+     section.about .item .tooltip-left{
+         display: none;
+     }
+     section.about .item .tooltip-right{
+         display: none;
+     }
+     section.about .item .tooltip-bottom{
+         display: none;
+     }
+     section.about .bottom i{
+         display: none;
+     }
+ 
+ 
+     section.about   .round {
+         width: 270px;
+         height: 270px;
+     }
+     section.about .inner-round{
+         width: 220px;
+         height: 220px;
+     }
+     section.about .left i {
+         position: absolute;
+         top: 50%;
+         right: -55px;
+         transform: translateY(-50%);
+         z-index: 2;
+         color: #444;
+         display: none;
+         transition: .4s;
+     }
+     section.about .right i {
+        position: absolute;
+        top: 50%;
+        left: -55px;
+        transform: translateY(-50%);
+        z-index: 2;
+        color: #444;
+        transition: .4s;
+        display: none;
+    }
+ 
+ 
+       /* =============== Portfolio ============== */
+ 
+       section.port {
+           clip-path:none;
+           margin-bottom: 50px;
+         }
+         section.port .overlay .title {
+             margin-bottom: 40px;
+         }
+         
+     section.port .overlay {
+         padding: 30px 0px 30px;
+     }
+ 
+     /* ===================== Service ================= */
+ 
+     section.service-part .line {
+          
+         display: none;
+     }
+ 
+     section.service-part {
+         margin-bottom: 130px;
+     }
+ 
+     section.service-part .title {
+          
+         margin-bottom: 50px;
+     }
+ 
+ 
+      
+ 
+      
+ 
+     section.service-part  .main{
+         flex-direction: column;
+     }
+     section.service-part .service:nth-child(odd) .main{
+         flex-direction: column;
+     }
+     section.service-part .service .main .left {
+         width: 100%;
+         justify-content: center;
+         
+     }
+     section.service-part .service .main .middle {
+         width: 100%;
+         justify-content: center;
+          
+     }
+     section.service-part .slick-center .middle div {
+          
+         transform: scale(.7);
+     }
+     section.service-part .service .main .right {
+         width: 100%;
+         padding: 40px 20px;
+         text-align: center;
+     }
+ 
+     section.service-part .fa-chevron-up:before {
+         content: "\f053";
+     }
+ 
+     section.service-part .fa-chevron-down:before {
+         content: "\f054";
+     }
+ 
+     section.service-part .service-slider i.fa-chevron-up {
+          top: 108%;
+          left: 35%;
+     }
+ 
+     section.service-part .service-slider i.fa-chevron-down {
+         left: 70%; 
+     }
+          
+          
+ 
+ 
+     /* ===================== Pricing ================= */
+ 
+     section.pricing-part .title{
+         margin-bottom: 40px;
+     }
+     section.pricing-part .item{
+         margin-bottom: 20px;
+     }
+
+     section.pricing-part .item .a h4 {
+        font-size: 15px;
+    }
+    section.pricing-part .item .b .round h5 {
+        font-size: 16px;
+    }
+    section.pricing-part .item .b .round p {
+        font-size: 12px;
+    }
+    section.pricing-part .item .b ul li {
+        font-size: 14px;
+    }
+    section.pricing-part .item .c h3 {
+        font-size: 14px;
+    }
+      /* ===================== Counter Part ================= */
+ 
+      section.counter-part{
+          clip-path: none;
+      }
+      section.counter-part .row {
+         transform: rotate(0deg);
+     }
+ 
+     section.counter-part .item {
+         transform: skewX(0deg);
+         margin: 10px 0px;
+         
+     }
+     section.counter-part .item h5 {
+         transform: rotate(0deg);
+         font-size: 40px;
+     }
+     section.counter-part .item p {
+         transform: rotate(0deg);
+         font-size: 16px;
+     }
+ 
+ 
+     /* ============= Team Part ============== */
+ 
+  section.team-part{
+      margin-bottom: 330px;
+  }
+  section.team-part .item {
+    
+    margin-bottom: 20px;
+}
+ 
+      /* ============= Company Part ============== */
+ 
+     section.company-part{
+         clip-path: none;
+         padding: 30px 0px;
+          
+     }
+     section.company-part .row {
+         transform: rotate(0deg);
+     }
+     section.company-part .item {
+          
+         transform: skewX(0deg);
+     }
+     section.company-part .item img {
+         transform: rotate(0deg);
+     }
+     
+     
+     /* ============== Footer =============== */
+ 
+ 
+     section.footer-part {
+      clip-path: none;
+     }
+     section.footer-part .a img {
+         transform: rotate(1deg);
+     }
+ 
+     section.footer-part .a {
+          
+         transform: rotate(0deg);
+     }
+ 
+     section.footer-part .item:after {
+          display: none;
+     }
+ 
+          
+      
+ 
+          
+          
+          
+ 
+     
+          
+          
+ 
+ 
+ 
+ 
+  /* ==================================== */
+ }
+
+
+ @media (min-width:768px) and (max-width:991px){
+  /* ============== Nav ================= */
+    nav img{
+        width: 90%;
+    }
+    nav button i{
+        color:#fff;
+        font-size: 24px;
+    }
+    nav .navbar-nav{
+        text-align: center;
+        background-color: #000;
+    }
+    nav ul li:hover:after {
+        width: 0;
+    }
+
+
+    /* ================ About ============== */
+    section.about .top i {
+        display: none;
+    }
+    section.about .item .tooltip-top {
+        display: none;
+    }
+    section.about .item .tooltip-left {
+         display: none;
+    }
+    section.about .item .tooltip-right {
+         display: none;
+    }
+
+    section.about .bottom i {
+         display: none;
+    }
+    section.about .item .tooltip-bottom {
+        display: none;
+    }
+    section.about .left i {
+        display: none;
+    }
+    section.about .right i {
+        display: none;
+    }
+    /* =========== Portfolio ============ */
+
+    section.port {
+        margin-bottom: 100px;
+        background: url('../images/port-bg.png') no-repeat center;
+        background-size: cover;
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    }
+
+    /* =========== Our Pricing ============ */
+
+    section.pricing-part .item .a h4 {
+        font-size: 16px;
+    }
+    section.pricing-part .item .b .round h5 {
+        font-size: 20px;
+    }
+    section.pricing-part .item .b .round p {
+        font-size: 12px;
+    }
+    section.pricing-part .item .b ul li {
+        font-size: 14px;
+    }
+
+
+    /* ========= Our Team ============ */
+
+    section.team-part {
+        margin-bottom: 360px;
+    }
+
+    section.team-part .item {
+        margin-bottom: 25px;
+    }
+
+
+    /* =========== Our company ======== */
+
+    section.company-part {
+        clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    }
+    section.company-part .item img {
+        width: 100%;
+    }
+
+    /* =========== Footer =========== */
+
+    section.footer-part {
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    section.footer-part .item:after {
+        display: none;
+    }
+
+    
+     
+          
+          
+          
+ 
+     
+          
+          
+ 
+ 
+ 
+ 
+  /* ==================================== */
+ }
+
+ @media (min-width:992px) and (max-width:1199px){
+    /* ============== Nav ================= */
+    nav ul li a {
+        font-size: 13px;
+    }
+
+
+
+ 
+  
+      /* ================ About ============== */
+      section.about   .round {
+        width: 290px;
+        height: 290px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section.about  .inner-round {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+    section.about .left i {
+        right: -67px;
+    }
+    section.about .right i {
+        left: -35px;
+    }
+    section.about .bottom i {
+        position: absolute;
+        top: -54px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        color: #444;
+        transition: .4s;
+    }
+  
+      /* =========== Portfolio ============ */
+  
+ 
+      /* =========== Our Pricing ============ */
+  
+      
+  
+  
+      /* ========= Our Team ============ */
+      section.team-part .item .details .icon i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    section.team-part .item {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+  
+       
+  
+  
+      /* =========== Our company ======== */
+      section.company-part .item img {
+        width: 100%;
+    }
+  
+       
+  
+      /* =========== Footer =========== */
+
+      section.footer-part .item p {
+        font-size: 13px;
+    }
+  
+       
+      
+       
+            
+            
+            
+   
+       
+            
+            
+   
+   
+   
+   
+    /* ==================================== */
+   }
+
+
+   @media (min-width:1200px) and (max-width:1399px){
+
+    section.about   .round {
+        width: 320px;
+        height: 320px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section.about  .inner-round {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+    section.about .left i {
+        right: -67px;
+    }
+    section.about .right i {
+        left: -66px;
+    }
+
+    section.about .bottom i {
+        position: absolute;
+        top: -55px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        color: #444;
+        transition: .4s;
+    }
+
+    section.company-part .item img {
+        width: 100%;
+    }
+     
+    }
+
+    @media (min-width:1400px){
+
+        section.about .right i {
+            left: -71px;
+        }
+        section.about .left i {
+            right: -71px;
+        }
+        section.about .bottom i {
+            top: -55px;
+        }
+
+    } 
+  
+       
+      
+       
+            
+            
+            
+   
+       
+            
+            
+   
+   
+   
+   
+    /* ==================================== */
+   }
